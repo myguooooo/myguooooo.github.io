@@ -7,11 +7,14 @@ body{
 	font-family: Trebuchet MS;
 }
 
+p, ul, h1, h2, h3 {
+	margin: auto;
+	width: 70%;
+}
 
 p, ul{
 	color: white;
 	font-family: Trebuchet MS;
-	width: 70%;
 }
 
 h2, h3{
