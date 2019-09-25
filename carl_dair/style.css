@@ -1,0 +1,19 @@
+body{
+	background:Slategray;
+}
+
+
+.normal{
+	font-family: Trebuchet MS;
+}
+
+
+p, ul{
+	color: white;
+	font-family: Trebuchet MS;
+}
+
+h2, h3{
+	color: white;
+	font-family: Futura;
+}
