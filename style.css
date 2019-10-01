@@ -1,3 +1,8 @@
 h1,p, a{
 	font-family: Trebuchet MS;
 }
+
+body{
+	margin: auto;
+	width: 70%
+}
