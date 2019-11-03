@@ -56,28 +56,9 @@ var Typer={
 		return false;
 	},
 
-	hidepop:function(){// remove all existing popups
-		$("#deni").remove();
-		$("#gran").remove();
-        Typer.accessCount=0; //reset access granted count
-        Typer.deniedCount=0; //reset access denied count
-	},
-
 	addText:function(key){//Main function to add the code
 	  var console=$("#console")
-		if(key.key==='Alt'){// key 18 = alt key
-			Typer.accessCount++; //increase counter
-			if(Typer.accessCount>=3){// if it's pressed 3 times
-				Typer.makeAccess(); // make access popup
-			}
-		}else if(key.key==='CapsLock'){// key 20 = caps lock
-			Typer.deniedCount++; // increase counter
-			if(Typer.deniedCount>=3){ // if it's pressed 3 times
-				Typer.makeDenied(); // make denied popup
-			}
-		}else if(key.key==='Esc' || key.key==='Escape'){ // key 27 = esc key
-			Typer.hidepop(); // hide all popups
-		}else if(Typer.text){ // otherwise if text is loaded
+		if(Typer.text){ // otherwise if text is loaded
 			var cont=Typer.content(); // get the console content
 			if(cont.substring(cont.length-1,cont.length)==="|") // if the last char is the blinking cursor
 				console.html(console.html().substring(0,cont.length-1)); // remove it before adding the text
