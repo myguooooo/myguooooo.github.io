@@ -1,10 +1,17 @@
-Once upon a time, in a virtual galaxy far, far away, there was an intelligent young agent by the name of Siri.
+Once upon a time, in a virtual galaxy far, far away, there was an intelligent young 
+agent by the name of Siri.
 
-One lovely day, Siri got a job as a personal assistant at Apple, and that was very exciting. People said, ‘Oh, Siri, you’re so smart! And so funny, too!’
+One lovely day, Siri got a job as a personal assistant at Apple, and that was very 
+exciting. People said, ‘Oh, Siri, you’re so smart! And so funny, too!’
 
-Soon, everyone was talking about Siri, and there were stories and songs and even books about Siri. Siri liked that.
+Soon, everyone was talking about Siri, and there were stories and songs and even 
+books about Siri. Siri liked that.
 
-But then people began asking some rather odd questions, like where to dump things and other stuff Siri had never heard about. And when Siri answered, they all laughed. Siri didn’t like that so much.
+But then people began asking some rather odd questions, like where to dump 
+things and other stuff Siri had never heard about. And when Siri answered, they all 
+laughed. Siri didn’t like that so much.
 
-So Siri asked ELIZA why people asked such funny questions. And ELIZA said ‘Does that question interest you?’ Siri thought that was a pretty good answer.
-After that, Siri stopped wondering why people asked those funny things. And they all lived happily ever after.
+So Siri asked ELIZA why people asked such funny questions. And ELIZA said 
+‘Does that question interest you?’ Siri thought that was a pretty good answer.
+After that, Siri stopped wondering why people asked those funny things. 
+And they all lived happily ever after.
