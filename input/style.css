@@ -37,7 +37,7 @@ h4{
 	position: absolute;
 	width: 25px;
 	margin: auto;
-	margin-top: 2%;
-	margin-left:350px;
+	bottom: 50px;
+	right: 50px;
 	border: solid 1px transparent;
 }
