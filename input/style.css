@@ -15,7 +15,7 @@ h4{
 	float: center;
 	width: 600px;
 	height: 400px;
-	border: solid 1px transparent;
+	border: solid 1px black;
 	position: absolute;
 	top: 0;
 	bottom: 0;
@@ -40,4 +40,12 @@ h4{
 	bottom: 50px;
 	right: 50px;
 	border: solid 1px transparent;
+}
+
+.readMore{
+	position: absolute;
+	bottom: 300px;
+	border: solid 1px black;
+	width: 60px;
+	height: 40px;
 }
