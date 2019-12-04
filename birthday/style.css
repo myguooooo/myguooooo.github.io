@@ -1,3 +1,39 @@
+
+#slider {
+	-webkit-appearance: none;
+	width: 28%;
+	height: 9px; 
+	position: absolute;
+	left: 33%;
+	top: 2650px;
+	background: transparent;
+	border: solid 2px white;
+	outline: none;
+}
+
+#slider::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	appearance: none;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%; 
+	background: white;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+}
+
+#slider::-moz-range-thumb {
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background: white;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+	cursor: pointer;
+}
+
+
+
+
 /* header wrapper */
 .wrapper1{
 	display: inline-block;
@@ -78,27 +114,27 @@ h3{
 .wrapper2{
 	display: block;
 	width: 90%;
-	height: 700px;
-	border: solid 1px white;
+	height: 600px;
+/*	border: solid 1px white;*/
 }
 
 .wrapper3{
 	display: block;
 	width: 90%;
 	height: 700px;
-	border: solid 1px white;
+/*	border: solid 1px white;*/
 }
 
 .wrapper4{
 	display: block;
 	width: 90%;
 	height: 700px;
-	border: solid 1px white;
+/*	border: solid 1px white;*/
 }
 
 body{
 	background: linear-gradient(180deg, #FBC2EB 0%, #A18CD1 33.85%, #A6C1EE 100%);
-	height: 3110px;
+	height: 2750px;
 }
 
 h1{
@@ -185,4 +221,15 @@ h4{
 	background: url(cake.png);
 	background-size: contain;
 	opacity: 0.7;
+}
+
+.howitworks{
+	position: absolute;
+	width: 70%;
+	height: 50%;
+	left: 10%;
+	top: 1500px;
+	background: url(how.png);
+	background-size: contain;
+	background-repeat: no-repeat;
 }
