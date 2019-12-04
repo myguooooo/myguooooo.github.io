@@ -1,0 +1,19 @@
+body {
+  color: #404040;
+  padding: 50px;
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.6rem;
+  font-weight: 300;
+}
+
+output {
+  display: block;
+  font-size: 3em;
+  margin-top: 0.5em;
+  border: solid 2px red;
+}
