@@ -1,8 +1,51 @@
-h1,p, a{
-	font-family: Trebuchet MS;
-}
-
 body{
 	margin: auto;
-	width: 70%
+	width: 300px;
+}
+
+.wrapper{
+	display: block;
+	width: 300px;
+	height: auto;
+	position: relative;
+	margin: auto;
+}
+
+h1{
+	font-family: Raleway;
+	margin-top: 50px;
+}
+
+h4{
+	font-family: Raleway;
+	font-weight: 300;
+	font-size: 16pt;
+}
+
+h5{
+	font-family: Raleway;
+	font-weight: 400;
+	margin-top:5px;
+	margin-bottom: 10px;
+	color: #A3A3A3;
+	font-size: 11pt;
+}
+
+a{
+	font-family: Raleway;
+	font-weight: 600;
+	font-size: 14pt;
+}
+
+a:link {
+	color: black;
+	text-decoration: none;
+}
+a:visited {
+	color: #A3A3A3;
+	text-decoration: none;
+}
+a:hover {
+	color: #376B6D;
+	text-decoration: underline;
 }
